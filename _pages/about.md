@@ -18,7 +18,11 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-The research g
+The lab pursues innovative fluid mechanics and CFD research to solve problems involving multi-phase, multi-scale complex flows in the marine environment. The current focus is on:
+- Air-sea interactions in planetary boundary layers
+- Tsunami modelling
+- Turbulence modelling
+- Offshore wind energy
 
 Write your biography here. Tell the world about yourself. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
