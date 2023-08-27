@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Department of Marine Environment and Engineering, National Sun Yat-sen University, No. 70, Lienhai Rd., Kaohsiung 80424, Taiwan
+subtitle: Department of Marine Environment and Engineering, National Sun Yat-sen University, No. 70, Lienhai Rd., Kaohsiung 80424, Taiwan - 海洋空氣與水動力研究室
 
 profile:
   align: right
