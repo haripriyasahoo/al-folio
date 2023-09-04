@@ -11,6 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Welcome to Marine Aero- & Hydrodynamics Lab 
 footer_text: >
   Vector graphics from <a href="https://www.vecteezy.com">Vecteezy</a>.
+  
 # Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #Vector graphics from <a href="https://www.vecteezy.com">Vecteezy</a>.
