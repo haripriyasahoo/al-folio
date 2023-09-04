@@ -33,6 +33,13 @@ body.sticky-bottom-footer {
   }
 }
 
+.logo {
+    img {
+	max-width: 85%;
+	//max-height: 100%;
+    }
+    text-align: center;
+}
 // TODO: redefine content layout.
 
 

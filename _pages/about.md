@@ -1,31 +1,32 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: / 
-logo: prof_pic.jpg
+logo: Logo.png
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true #false # crops the image to make it circular
   address: >
-    <p>Department of Marine Environment and Engineering</p>
-    <p>National Sun Yat-sen University</p>
-    <p>No. 70, Lienhai Rd., Kaohsiung 80424, Taiwan</p>
+    <p>Department of Marine Environment and Engineering, National Sun Yat-sen University, No. 70, Lienhai Rd., Kaohsiung 80424, Taiwan</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-The lab pursues innovative fluid mechanics and CFD research to solve problems involving multi-phase, multi-scale complex flows in the marine environment. The current focus is on:
-- Air-sea interactions in planetary boundary layers
-- Tsunami modelling
-- Turbulence modelling
-- Offshore wind energy
+Welcome to Marine Aero- & Hydrodynamics Laboratory led by <a href="/pi/">Dr. Asim Önder</a> at <a href="https://maev.nsysu.edu.tw/?Lang=en">Department of Marine Environment and Engineering</a> of <a href="https://www.nsysu.edu.tw/">National Sun Yat-sen University</a>. The lab pursues innovative fluid mechanics and CFD research to solve geophysical and engineering problems involving complex multi-phase, multi-scale flows in the marine environment.
 
-Write your biography here. Tell the world about yourself. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+The current research interests include:
+- <b> Air-sea interactions</b>: wind-wave interactions, Langmuir circulations, gas and heat exchange
+- <b> Offshore wind energy </b>: metocean characterization, wake aerodynamics of floating wind turbines, atmospheric-stability effects, land-sea transition in nearshore wind farms
+- <b> Tsunamis </b>: induced bottom friction and sediment transport
+- <b> Oceanic/atmospheric turbulence</b>: large-eddy simulation of near-surface layers, Reynolds-stress modelling, non-equilibrium turbulence
+- <b> Computational science </b>: machine-learning models for interfacial flows, adjoint methods, immersed boundary methods, adaptive methods
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+We are a newly-established interdisciplinary research group. <a href="/positions/">Join us!</a> 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+
+

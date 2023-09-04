@@ -1,84 +1,132 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@ARTICLE{Onder2023-oa,
+bibtex_show={true},
+  abbr={J COMPUT PHYS},
+  title     = "Deep learning of interfacial curvature: a symmetry-preserving
+               approach for the volume of fluid method",
+  author    = "{\"O}nder, A. and Liu, P.-L. F.",
+  journal   = "J. Comput. Phys.",
+  publisher = "Elsevier",
+  doi={10.1016/j.jcp.2023.112110},
+  url={http://dx.doi.org/10.1016/j.jcp.2023.112110},
+  html={http://dx.doi.org/10.1016/j.jcp.2023.112110},
+  year      =  2023,
+  pdf={onder_liu_jcp2023.pdf},
+  code={https://github.com/asimonder/geometricVoFCartesian},
+  abstract={Estimation of interface curvature in surface-tension dominated flows is a remaining challenge in Volume of Fluid (VOF) methods. Data-driven methods are recently emerging as a promising alternative in this domain. They outperform conventional methods on coarser grids but diverge with grid refinement. Furthermore, unlike conventional methods, data-driven methods are sensitive to coordinate system and sign conventions, thus often fail to capture basic symmetry patterns in interfaces. The present work proposes a new data-driven strategy which conserves the symmetries in a cost-effective way and delivers consistent results over a wide range of grids. The method is based on artificial neural networks with deep multilayer perceptron (MLP) architecture which read volume fraction fields on regular grids. The anti-symmetries are preserved with no additional cost by employing a neural network model with input normalization, odd-symmetric activation functions and bias-free neurons. The symmetries are further conserved by height-function inspired rotations and averaging over several different orientations. The new symmetry-preserving MLP model is implemented into a flow solver (OpenFOAM) and tested against conventional schemes in the literature. It shows superior performance compared to its standard counterpart and has similar accuracy and convergence properties with the state-of-the-art conventional method despite using smaller stencil.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@ARTICLE{Goit2022-pf,
+bibtex_show={true},
+  abbr={J REN SUS EN},
+  title     = "The effect of coastal terrain on nearshore offshore wind farms:
+               A large-eddy simulation study",
+  author    = "Goit, J. P. and {\"O}nder, A.",
+  journal   = "J. Renewable Sustainable Energy",
+  publisher = "American Institute of Physics",
+  html={http://dx.doi.org/10.1063/5.0094476},
+  volume    =  14,
+  number    =  4,
+  pages     = "043304",
+  month     =  jul,
+  year      =  2022,
+code={https://github.com/asimonder/windTurbineModels},
+abstract = {Attributed to the higher inflow turbulence level, which resulted in higher entrainment of kinetic energy from the flow above. The farm-induced IBL for a land-to-sea transition case shows rapid growth for the first few turbine rows, while the offshore only case shows gradual growth. However, the difference between the two IBLs decreases with downstream distance, implying that for sufficiently long wind farms, both IBLs will converge. Total power output of the land-to-sea transition case is 17\% higher than the offshore only case for the farm layout and roughness heights considered in this study.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@ARTICLE{Onder2021-pg,
+bibtex_show={true},
+  abbr={J FLUID MECH},
+title     = "Receptivity and transition in a solitary wave boundary layer
+               over random bottom topography",
+  author    = "{\"O}nder, A. and Liu, P. L.-F.",
+  journal   = "J. Fluid Mech.",
+  publisher = "Cambridge University Press (CUP)",
+  volume    =  912,
+  number    = "A21",
+  month     =  apr,
+  year      =  2021,
+  html={http://dx.doi.org/10.1017/jfm.2020.1141},
+  abstract = {Direct numerical simulations are conducted to study the receptivity and transition mechanisms in a solitary wave boundary layer developing over randomly organized wave-like bottom topography. The boundary layer flow shows a selective response to broadband perturbations from the bottom, and develops streamwise-elongated streaks. When the streaks reach high amplitudes, they indirectly amplify streamwise-elongated vortices through modulating small-scale fluctuations and pressure fields. These stronger vortices in turn stir the boundary layer more effectively and further intensify streaks via the lift-up mechanism. This nonlinear feedback loop increases the sensitivity of the boundary layer to the roughness level and yields dramatic variations among cases sharing the same Reynolds number with differing roughness height. Three different local breakdown scenarios are observed depending on the amplitude of the streaks: (i) two-dimensional wave instabilities in the regions with weak streaks; (ii) inner shear-layer instabilities in the regions with moderate-amplitude streaks; and (iii) rapidly growing outer shear-layer instabilities in the regions with highly elevated high-amplitude streaks. Inner instabilities have the slowest growth rate among all transition paths, which confirms the previous predictions on the stabilising role of moderate-amplitude streaks (Önder & Liu, J. Fluid. Mech., vol. 896, 2020, A20).},
+  language  = "en"
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@ARTICLE{Onder2020-cf,
+bibtex_show={true},
+    abbr={J FLUID MECH},
+  title     = "Stability of the solitary wave boundary layer subject to
+               finite-amplitude disturbances",
+  author    = "{\"O}nder, A. and Liu, P. L.-F.",
+  journal   = "J. Fluid Mech.",
+  publisher = "cambridge.org",
+  year      =  2020,
+  pdf={onder_liu_jfm2020.pdf},
+  html={http://dx.doi.org/10.1017/jfm.2020.351},
+  abstract={The stability and transition in the bottom boundary layer under a solitary wave are analysed in the presence of finite-amplitude disturbances. First, the receptivity of the boundary layer is investigated using a linear input-output analysis, in which the environment noise is modelled as distributed body forces. The most ‘dangerous’ perturbations in a time frame until flow reversal are found to be arranged as counter-rotating streamwise-constant vortices. One of these vortex configurations is then selected and deployed to nonlinear equations, and streaks of various amplitudes are generated via the lift-up mechanism. By means of secondary stability analysis and direct numerical simulations, the dual role of streaks in the boundary-layer transition is shown. When the amplitude of streaks remains moderate, these elongated features remain stable until the adverse-pressure-gradient stage and have a dampening effect on the instabilities developing thereafter. In contrast, when the low-speed streaks reach high amplitudes exceeding 15\% of the free stream velocity at the respective phase, they become highly unstable to secondary sinuous modes in the outer shear layers. Consequently, a subcritical transition to turbulence, i.e. bypass transition, can be initiated already in the favourable-pressure-gradient region ahead of the wave crest.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@ARTICLE{Onder2019-ct,
+bibtex_show={true},
+      abbr={J FLUID MECH},
+  title     = "Turbulent dynamics of sinusoidal oscillatory flow over a wavy
+               bottom",
+  author    = "{\"O}nder, A. and Yuan, J.",
+  journal   = "J. Fluid Mech.",
+  publisher = "Cambridge University Press (CUP)",
+  volume    =  858,
+  pages     = "264--314",
+  month     =  jan,
+  year      =  2019,
+  html={http://dx.doi.org/10.1017/jfm.2018.754},
+  keywords  = "coastal engineering; separated flows; vortex flows",
+  abstract={A direct numerical simulation study is conducted to investigate sinusoidal oscillatory flow over a two-dimensional wavy wall. The height and wavelength of the bottom profile, and the period and amplitude of the free-stream oscillation, are selected to mimic a wave-driven boundary layer over vortex ripples on a sandy seabed. Two cases with different Reynolds numbers (𝑅𝑒) are considered, and the higher-𝑅𝑒 case achieves a fully developed turbulent state with a wide separation between the energy-containing and dissipative scales. The oscillatory flow is characterized by coherent columnar vortices, which are the main transport agents of turbulent kinetic energy and enstrophy. Two classes of coherent vortices are observed: (i) a primary vortex formed at the lee side of the ripple by flow separation at the crest; (ii) a secondary vortex formed beneath the primary vortex by vortex-induced separation. When the free-stream velocity weakens, these vortices form a counter-rotating vortex dipole and eject themselves over the crest with their mutual induction. Turbulence production peaks twice in a half-cycle; during the formation of the primary vortex and during the ejection of the vortex dipole. The intensity of the former peak remains low in the lower-𝑅𝑒 case, as the vortex dipole follows a higher altitude trajectory limiting its interactions with the bottom, and leaving minimal residual turbulence around the ripples for the subsequent half-cycle. Flow snapshots and spectral analysis reveal two dominant three-dimensional features: (i) an energetic vortex mode with a preferred spanwise wavelength close to the ripple wavelength; (ii) streamwise vortical structures in near-wall regions with a relatively shorter spanwise spacing influenced by viscous effects. The vortex mode becomes strong when the cores of the vortices are strained to an elliptical form while moving towards the crest. Following the detachment of the vortices from the ripple, the vortex mode in the higher-𝑅𝑒 case breaks down the spanwise coherence of the columnar vortices and decomposes them into intermittent patches of turbulent vortex clusters. The distribution of wall shear stress over the ripple is also analysed in detail. The peak values are observed near the ripple crest around the ejection of the vortex dipole and the maximum free-stream velocity. In the former, both the vortex mode and streamwise vortices have strong footprints on the wall, yielding a bimodal wall-shear-stress spectrum with two distinctive peaks. In the second high-stress regime, decaying coherent vortices impose strong inhomogeneity on the wall shear stress as their wall-attached parts sweep the ripples. These spanwise variations in the wall shear provide insights into the instability of two-dimensional sand ripples.},
+  language  = "en"
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@ARTICLE{Onder2018-bs,
+bibtex_show={true},
+      abbr={J FLUID MECH},
+  title     = "On the interaction of very-large-scale motions in a neutral
+               atmospheric boundary layer with a row of wind turbines",
+  author    = "{\"O}nder, A. and Meyers, J.",
+  journal   = "J. Fluid Mech.",
+  publisher = "Cambridge University Press",
+  volume    =  841,
+  pages     = "1040--1072",
+  month     =  apr,
+  year      =  2018,
+  html={http://dx.doi.org/10.1017/jfm.2018.86},
+  keywords  = "atmospheric flows; boundary layer structure; turbulent boundary layers",
+  abstract={Recent experiments have revealed the existence of very long streamwise features, denoted as very-large-scale motions (VLSMs), in the thermally neutral atmospheric boundary layer (ABL) (Hutchins et al., Boundary-Layer Meteorol., vol. 145(2), 2012, pp. 273–306). The aim of our study is to elaborate the role of these large-scale anisotropic patterns in wind-energy harvesting with special emphasis on the organization of turbulent fields around wind turbines. To this end, we perform large-eddy simulation (LES) of a turbine row operating under neutral conditions. The ABL data are produced separately in a very long domain of  240𝛿, where  𝛿 is the ABL thickness, to ensure a realistic representation for very large scales of  𝑂(10𝛿). VLSMs are extracted from th LES database using a cutoff at streamwise wavelength  𝜆𝑥=5𝛿, or  𝜆𝑥=50𝐷 in terms of turbine diameter. Reynolds averaging of low-pass filtered fields shows that the interaction of VLSMs and turbines produce very-long-wavelength motions in the wake region, which contain approximately  20\% of the resolved Reynolds shear stress, and  30\% of the resolved streamwise kinetic energy in the shear layers. To further elucidate these statistics, we conduct a geometrical analysis using conditional averaging based on large-scale low- and high-velocity events. The conditional eddies provide evidence for very long (∼10𝛿) and wide (∼𝛿) streak–roller structures around the turbine row. Although all of these eddies share the same streak–roller topology, there are remarkable modifications in the morphology of the conditional eddies whose cores are located sideways to the turbines. In these cases, the turbine row pushes the whole low- or high-momentum streak aside, and prevails as a sharp boundary to the low–high-momentum streak pair. In this process, accompanying rollers remain relatively unaffected. This creates a two-way flux towards the turbine row. These observations provide some insights about the high lateral spreading observed in the large-scale Reynolds stress fields.}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+
+@ARTICLE{Onder2016-sd,
+bibtex_show={true},
+  abbr={COMPUT FLUIDS},
+  title     = "Optimal control of a transitional jet using a continuous adjoint
+               method",
+  author    = "{\"O}nder, A. and Meyers, J.",
+  journal   = "Comput. Fluids",
+  publisher = "Elsevier",
+  html={http://dx.doi.org/10.1016/j.compfluid.2015.11.012},
+  year      =  2016,
+  abstract ={The use of active flow control with unsteady means gains increasing interest in engineering designs. The main bottleneck of the methodology is the strong dependence on trial and error to find the right set of control parameters. In this context, adjoint-based control using high-fidelity simulations is a promising method to explore optimal values in large parameter spaces. However, the applicability of the methodology to complex engineering geometries remains extremely limited. In this work, we employ adjoint-based optimal control using unsteady high-fidelity simulations in a generic unstructured grid framework. To this end, an optimal flow control study is conducted in OpenFOAM® using the continuous adjoint method and DNS simulations. To demonstrate the methodology, we study control of an incompressible axisymmetric jet at 𝑅𝑒=2000 with focus on improving its mixing properties. The gradient of the cost functional is calculated with a newly developed unsteady-adjoint solver based on a classical incremental projection scheme. Particular attention is paid into the presentation of mathematical and algorithmic details. Moreover, we address three main issues that remained relatively undiscussed in common practise: the choice of adjoint boundary conditions on computational boundaries, the failure of the adjoint methodology for long optimization horizons in turbulent flows and the treatment of the additional transposed convective term in the adjoint equations. Practical solutions are employed for these issues. Two optimization cases with different initial conditions are designed. To this end, we considered maximization of enstrophy in the near field, for which increments of 10.5\% and 5.6\% are obtained.}
+}
+
+@ARTICLE{Onder2014-jx,
+bibtex_show={true},
+  abbr={PHYS FLUIDS},
+  title     = "Modification of vortex dynamics and transport properties of
+               transitional axisymmetric jets using zero-net-mass-flux
+               actuation",
+  author    = "{\"O}nder, A. and Meyers, J.",
+  journal   = "Phys. Fluids",
+  publisher = "pubs.aip.org",
+html={http://dx.doi.org/10.1063/1.4890242},
+code={https://github.com/asimonder/projectionFoam},
+year      =  2014,
+abstract={We study the near field of a zero-net-mass-flux (ZNMF) actuated round jet using direct numerical simulations. The Reynolds number of the jet $Re_D$ = 2000 and three ZNMF actuators are used, evenly distributed over a circle, and directed towards the main jet. The actuators are triggered in phase, and have a relatively low momentum coefficient of Cμ = 0.0049 each. We study four different control frequencies with Strouhal numbers ranging from StD = 0.165 to StD = 1.32; next to that, also two uncontrolled baseline cases are included in the study. We find that this type of ZNMF actuation leads to strong deformations of the near-field jet region that are very similar to those observed for non-circular jets. At the end of the jet's potential core (x/D = 5), the jet-column cross section is deformed into a hexagram-like geometry that results from strong modifications of the vortex structures. Two mechanisms lead to these modifications, i.e., (i) self-deformation of the jet's primary vortex rings started by distortions in their azimuthal curvature by the actuation, and (ii) production of side jets by the development and subsequent detachment of secondary streamwise vortex pairs. Further downstream (x/D = 10), the jet transforms into a triangular pattern, as the sharp corner regions of the hexagram entrain fluid and spread. We further investigate the global characteristics of the actuated jets. In particular when using the jet preferred frequency, i.e., $St_D$ = 0.33, parameters such as entrainment, centerline decay rate, and mean turbulent kinetic energy are significantly increased. Furthermore, high frequency actuation, i.e., $St_D$ = 1.32, is found to suppress the mechanisms leading to large scale structure growth and turbulent kinetic energy production. The simulations further include a passive scalar equation, and passive scalar mixing is also quantified and visualized.}
 }

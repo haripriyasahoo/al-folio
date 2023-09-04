@@ -1,9 +1,9 @@
 ---
 layout: cv
-permalink: /cv/
-title: cv
+permalink: /pi/
+title: PI
 nav: true
-nav_order: 4
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in 'pages/_cv.md'. You can also change or remove the top pdf download button.
+nav_order: 2
+cv_pdf: onder_asim_cv.pdf
+description: Background information for principal investigator
 ---
