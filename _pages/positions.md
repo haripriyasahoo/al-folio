@@ -13,7 +13,7 @@ If you are interested in
 
 - solving exciting problems in offshore wind energy, environmental fluid mechanics, and ocean engineering,
 - developing open-source code, and simulating real-world scenarios on supercomputers,
-- exploring modern technologies such as aritificial intelligence,
+- exploring modern technologies such as artificial intelligence,
 
 please send an email to <a href="mailto:asim.onder@mail.nsysu.edu.tw">asim.onder@mail.nsysu.edu.tw</a>, enclosing your CV and a short letter of motivation. Students from all relevant engineering, fluid mechanics, applied mathematics and computer science backgrounds are welcome to apply.
 
