@@ -25,7 +25,7 @@ The current research interests include:
 - <b> Oceanic/atmospheric turbulence</b>: large-eddy simulation of near-surface layers, Reynolds-stress modelling, non-equilibrium turbulence
 - <b> Computational science </b>: machine-learning models for interfacial flows, adjoint methods, immersed boundary methods, adaptive methods
 
-<a href="/positions/">Contact us</a> to learn more about the interdisciplinary research activities in the lab. 
+<a href="/positions/">Contact us</a> to learn more about the research activities in the lab. 
 
 
 
