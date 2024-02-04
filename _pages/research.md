@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 description: A short video highlighting current and past resarch activities. (Updates are in order.)
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: []
 horizontal: false
 ---
