@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-If you are interested in
+If you are interested in interdisciplinary research in 
 
 - solving exciting problems in offshore wind energy, environmental fluid mechanics, and ocean engineering,
 - developing open-source code, and simulating real-world scenarios on supercomputers,
@@ -17,6 +17,3 @@ you are welcome to inquire (<a href="mailto:asim.onder@mail.nsysu.edu.tw">asim.o
 
 <br/><br/>
 <img src="../assets/img/nsysu.jpeg" alt="drawing" width="880"/>
-
-
-
