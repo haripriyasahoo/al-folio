@@ -6,7 +6,7 @@ logo: Logo.png
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_small.jpg
   image_circular: true #false # crops the image to make it circular
   address: >
     <p>Department of Marine Environment and Engineering, National Sun Yat-sen University, No. 70, Lienhai Rd., Kaohsiung 80424, Taiwan</p>
