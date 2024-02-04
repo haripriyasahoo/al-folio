@@ -6,6 +6,6 @@ logo:
 
 profile:
   align: left
-  image: logo.jpg
+  image: LogoSmall.jpg
   image_circular: true #false # crops the image to make it circular
 ---
