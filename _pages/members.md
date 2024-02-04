@@ -3,6 +3,7 @@ layout: members
 title: Members
 permalink: /Members
 logo: 
+nav_order: 3
 
 profile:
   align: left
