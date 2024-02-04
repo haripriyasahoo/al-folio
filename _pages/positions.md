@@ -13,7 +13,7 @@ If you are interested in
 - developing open-source code, and simulating real-world scenarios on supercomputers,
 - exploring modern technologies such as artificial intelligence,
 
-you are welcome to inquire (<a href="mailto:asim.onder@mail.nsysu.edu.tw">asim.onder@mail.nsysu.edu.tw</a>) about availabe positions. Students from all relevant engineering, fluid mechanics, applied mathematics and computer science backgrounds are encouraged to contact.
+you are welcome to inquire (<a href="mailto:asim.onder@mail.nsysu.edu.tw">asim.onder@mail.nsysu.edu.tw</a>) about availabe research projects. Students from all relevant engineering, fluid mechanics, applied mathematics and computer science backgrounds are encouraged to contact.
 
 <br/><br/>
 <img src="../assets/img/nsysu.jpeg" alt="drawing" width="880"/>
