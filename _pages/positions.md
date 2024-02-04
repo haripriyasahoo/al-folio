@@ -7,15 +7,13 @@ nav: true
 nav_order: 5
 ---
 
-We are looking for motivated students to join our lab.
-
 If you are interested in
 
 - solving exciting problems in offshore wind energy, environmental fluid mechanics, and ocean engineering,
 - developing open-source code, and simulating real-world scenarios on supercomputers,
 - exploring modern technologies such as artificial intelligence,
 
-please send an email to <a href="mailto:asim.onder@mail.nsysu.edu.tw">asim.onder@mail.nsysu.edu.tw</a>, enclosing your CV and a short letter of motivation. Students from all relevant engineering, fluid mechanics, applied mathematics and computer science backgrounds are welcome to apply.
+you are welcome to inquire (<a href="mailto:asim.onder@mail.nsysu.edu.tw">asim.onder@mail.nsysu.edu.tw</a>) about availabe positions. Students from all relevant engineering, fluid mechanics, applied mathematics and computer science backgrounds are encouraged to contact.
 
 <br/><br/>
 <img src="../assets/img/nsysu.jpeg" alt="drawing" width="880"/>
