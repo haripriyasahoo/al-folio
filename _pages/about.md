@@ -25,4 +25,4 @@ The current research interests include:
 - <b> Oceanic/atmospheric turbulence</b>: large-eddy simulation of near-surface layers, Reynolds-stress modelling, non-equilibrium turbulence
 - <b> Computational science </b>: machine-learning models for interfacial flows, adjoint methods, immersed boundary methods, adaptive methods
 
-<a href="mailto:asim.onder@mail.nsysu.edu.tw">Contact us</a> to learn more about the ongoing research projects. 
+
