@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 description: Peer-reviewed journal articles. 
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
