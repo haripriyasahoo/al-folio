@@ -2,7 +2,8 @@
 layout: members
 title: Members
 permalink: /Members
-logo: 
+logo:
+nav: true
 nav_order: 3
 
 profile:
