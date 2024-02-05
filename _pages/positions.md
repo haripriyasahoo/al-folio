@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /positions/
-title: Open Positions
+permalink: /contact/
+title: Contact
 description: 
 nav: true
 nav_order: 5
