@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-If you are interested in interdisciplinary research in 
+If you are interested in
 
 - solving exciting problems in offshore wind energy, environmental fluid mechanics, and ocean engineering,
 - developing open-source code, and simulating real-world scenarios on supercomputers,
