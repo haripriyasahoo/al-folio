@@ -7,6 +7,6 @@ nav_order: 3
 
 profile:
   align: left
-  image: LogoSmall.jpg
+  image: LogoSmall.png
   image_circular: true #false # crops the image to make it circular
 ---
