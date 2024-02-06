@@ -20,8 +20,8 @@ Welcome to Marine Aero- & Hydrodynamics Laboratory led by <a href="/pi/">Dr. Asi
 
 The current research interests include:
 - <b> Air-sea interactions</b>: wind-wave interactions, Langmuir circulations, gas and heat exchange
-- <b> Offshore wind energy </b>: metocean characterization, wake aerodynamics of floating wind turbines, atmospheric-stability effects, land-sea transition in nearshore wind farms
-- <b> Tsunamis </b>: induced bottom friction and sediment transport
+- <b> Offshore wind energy </b>: metocean characterization, aero-hydro coupling, atmospheric-stability effects, land-sea transition
+- <b> Tsunamis </b>: bottom friction, sediment transport
 - <b> Oceanic/atmospheric turbulence</b>: large-eddy simulation of near-surface layers, Reynolds-stress modelling, non-equilibrium turbulence
 - <b> Computational science </b>: machine-learning models for interfacial flows, adjoint methods, immersed boundary methods, adaptive methods
 
