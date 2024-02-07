@@ -1,6 +1,6 @@
 ---
 layout: profiles
-permalink: /Members/
+permalink: /members/
 title: Members
 description: Members of the lab
 nav: true
