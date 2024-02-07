@@ -3,7 +3,7 @@ layout: members
 permalink: /members/
 title: Members
 description: Members of the lab
-nav: true
+nav: false
 nav_order: 3
 
 profiles:
