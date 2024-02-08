@@ -15,8 +15,8 @@ layout: default
   </header>
 
   <article>
-     {% if page.profile %}
-<div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+    {% if page.profile %}
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
@@ -37,7 +37,8 @@ layout: default
         {% endif %}
       </div>
     {% endif %}
-    
+
+    <div class="clearfix">{{ content }}</div>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
