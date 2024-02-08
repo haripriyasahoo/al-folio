@@ -15,7 +15,7 @@ layout: default
   </header>
 
   <article>
-    {% if page.profile %}
+    <div class="clearfix">{{ content }}</div>
      var yourImages = ["prof_pic.jpg","member1.jpeg","Logo.png"];
      var randomImage = Math.round(Math.random()*yourImages.length);
      function displayImage()
