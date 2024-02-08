@@ -40,14 +40,6 @@ layout: default
               alt=page.profile.image
               cache_bust=true -%}
             {% endif -%}
-            {%- if page.profile.address %}
-            <div class="caption">
-	      <h5><b>Asim Önder, Ph.D.</b></h5>
-	      <h6><i>Assistant Professor</i></h6>
-	      <h6>Department of Marine Environment and Engineering, National Sun Yat-sen University, No. 70, Lienhai Rd., Kaohsiung 80424, Taiwan</h6>
-              <!--{{<b>Asim Önder, Ph.D. </b>page.profile.address }}-->
-            </div>
-            {%- endif %}
             <!-- Social -->
           {%- if page.social %}
             <div class="social">
@@ -58,7 +50,6 @@ layout: default
               <div class="contact-note">
                 {{ site.contact_note }}
               </div>
-
             </div>
           {%- endif %}
           </div>
