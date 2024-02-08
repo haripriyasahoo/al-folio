@@ -1,26 +1,29 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
     <p>123 your address street</p>
     <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+latest_posts: false # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to Marine Aero- & Hydrodynamics Laboratory led by <a href="/pi/">Dr. Asim Önder</a> at <a href="https://maev.nsysu.edu.tw/?Lang=en">Department of Marine Environment and Engineering</a> of <a href="https://www.nsysu.edu.tw/">National Sun Yat-sen University</a>. The lab pursues innovative fluid mechanics and CFD research to solve geophysical and engineering problems involving complex multi-phase, multi-scale flows in the marine environment.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+The current research interests include:
+- <b> Air-sea interactions</b>: wind-wave interactions, Langmuir circulations, gas and heat exchange
+- <b> Offshore wind energy </b>: metocean characterization, aero-hydro coupling, atmospheric-stability effects, land-sea transition
+- <b> Tsunamis </b>: bottom friction, sediment transport
+- <b> Oceanic/atmospheric turbulence</b>: large-eddy simulation of near-surface layers, Reynolds-stress modelling, non-equilibrium turbulence
+- <b> Computational science </b>: machine-learning models for interfacial flows, adjoint methods, immersed boundary methods, adaptive methods
