@@ -12,7 +12,8 @@ profile:
   align: right
   image: prof_pic.jpg
   content: about_einstein.md
-    image_circular: true # crops the image to make it circular
-    more_info: >
-      <p>Department of Marine Environment and Engineering, National Sun Yat-sen University, No. 70, Lienhai Rd., Kaohsiung 80424, Taiwan</p>
+  image_circular: true # crops the image to make it circular
+  more_info: >
+      <p>Department of Marine Environment and Engineering, National Sun Yat-sen University, No. 70, 
+            Lienhai Rd., Kaohsiung 80424, Taiwan</p>
   ---
