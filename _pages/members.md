@@ -10,7 +10,7 @@ profiles:
  
   - align: left
     image: member1.jpeg
-    content: about_einstein.md
+    content: ...
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Department of Marine Enviroment and Engineering, NSYSU</p>
