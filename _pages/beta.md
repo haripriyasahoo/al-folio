@@ -1,3 +1,3 @@
----
-Research: Machine learning models for interfacial flows
----
+**Ph.D Student**
+*Machine learning models for interfacial flows*
+
