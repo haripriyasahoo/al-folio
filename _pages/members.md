@@ -8,7 +8,7 @@ nav_order: 3
 
 profiles:
  
-  - align: center
+  - align: left
     image: member1.jpeg
     content: beta.md
     image_circular: true # crops the image to make it circular
