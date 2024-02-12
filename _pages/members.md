@@ -10,7 +10,7 @@ profiles:
  
   - align: left
     image: member1.jpeg
-    content: Machine learning models for interfacial flows
+    content: beta.md
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Ph.D. Student</p>
