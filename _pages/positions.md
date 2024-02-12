@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /positions/
-title: Contact us
+title: Positions
 description: 
 nav: true
 nav_order: 6
