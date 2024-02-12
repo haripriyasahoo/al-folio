@@ -10,8 +10,8 @@ profiles:
  
   - align: left
     image: member1.jpeg
-    content: ...
+    content: Machine learning models for interfacial flows
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p>Department of Marine Enviroment and Engineering, NSYSU</p>
+      <p>Ph.D. Student</p>
 ---
