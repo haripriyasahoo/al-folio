@@ -1,6 +1,6 @@
-**Haripriya Sahoo**
+## **Haripriya Sahoo**
 
-*Ph.D. Student*
+Ph.D. Student
 
 *Research*: Machine learning models for interfacial flows
 
