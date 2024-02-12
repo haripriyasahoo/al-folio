@@ -1,4 +1,4 @@
-**Ph.D Student**
+**Ph.D. Student**
 
-*Machine learning models for interfacial flows*
+Machine learning models for interfacial flows
 
