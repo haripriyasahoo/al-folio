@@ -1,20 +1,17 @@
 ---
-layout: members
-permalink: /members/
+layout: profiles
+permalink: /Member/
 title: Members
-description: Members of the lab
+description: Members of the group
 nav: false
 nav_order: 3
 
 profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
+ 
   - align: left
-    image: LogoSmall.png
-    content: Describe the member
-    image_circular: false # crops the image to make it circular
+    image: member1.jpeg
+    content: about_einstein.md
+    image_circular: true # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>Department of Marine Enviroment and Engineering, NSYSU</p>
 ---
