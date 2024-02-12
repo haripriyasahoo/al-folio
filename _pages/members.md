@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /Member/
 title: Members
-description: Members of the group
+description: 
 nav: true
 nav_order: 3
 
