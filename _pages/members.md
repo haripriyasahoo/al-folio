@@ -13,6 +13,6 @@ profiles:
     content: beta.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p><b>Haripriya Sahoo </b> </p>
+      <!--p> </p-->
 ---
 ---
