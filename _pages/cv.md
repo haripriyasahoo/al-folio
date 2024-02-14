@@ -7,7 +7,7 @@ nav_order: 2
 cv_pdf: onder_asim_cv.pdf
 description: Background information for principal investigator
 toc:
-  sidebar: left
+  sidebar: middle
 profile:
   align: left
   image: prof_pic.jpg
