@@ -426,7 +426,11 @@ ul.task-list input[type="checkbox"] {
   max-width: 400px;
   transform: translate(-50%, -50%);
 }
-
+@media (max-width: 576px) {
+  .profile {
+    width: 30%;
+  }
+}
 @media only screen and (max-width: 400px) {
   .wechat-modal > img {
     width: 60%;
