@@ -428,7 +428,13 @@ ul.task-list input[type="checkbox"] {
 }
 @media (max-width: 576px) {
   .profile {
-    width: 60%;
+    width: 30%;
+
+    .address {
+      p {
+        display: flex;
+      }
+    }
   }
 }
 @media only screen and (max-width: 400px) {
