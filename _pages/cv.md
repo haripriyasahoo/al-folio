@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: cv 
 permalink: /pi/
 title: PI
 nav: true
