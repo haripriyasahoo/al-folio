@@ -428,18 +428,15 @@ ul.task-list input[type="checkbox"] {
 }
 @media (max-width: 576px) {
   .profile {
-    width: 30%;
-
-    .address {
-      p {
-        display: flex;
-      }
-    }
+    width: 100vw;
+    height:40vh;
   }
 }
 @media only screen and (max-width: 400px) {
   .wechat-modal > img {
-    width: 60%;
+    // width: 60%;
+    width: 100vw;
+    height:40vh;
   }
 }
 
