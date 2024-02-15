@@ -410,7 +410,17 @@ blockquote {
   max-width: 400px;
   transform: translate(-50%, -50%);
 }
+@media (min-width: 400px) {
+  .profile {
+    width: 30%;
 
+    .address {
+      p {
+        display: block;
+      }
+    }
+  }
+}
 @media only screen and (max-width: 400px) {
   .wechat-modal > img {
     width: 33%;
