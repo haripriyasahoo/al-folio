@@ -7,7 +7,7 @@ nav_order: 7
 social: true # includes social icons at the bottom of the page
 ---
 <div class="slider">
-        <div class="images">
+        <div class="images"> 
             <input type="radio" name="slide" id="img1">
             <input type="radio" name="slide" id="img2">
             <input type="radio" name="slide" id="img3">
