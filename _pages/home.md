@@ -4,7 +4,6 @@ title: Home
 permalink: /home/
 nav: true
 nav_order: 7
-social: true # includes social icons at the bottom of the page
 ---
 Welcome to Marine Aero- & Hydrodynamics Laboratory led by <a href="/pi/">Dr. Asim Önder</a> at <a href="https://maev.nsysu.edu.tw/?Lang=en">Department of Marine Environment and Engineering</a> of <a href="https://www.nsysu.edu.tw/">National Sun Yat-sen University</a>. The lab pursues innovative fluid mechanics and CFD research to solve geophysical and engineering problems involving complex multi-phase, multi-scale flows in the marine environment.
 
