@@ -12,10 +12,10 @@ social: true # includes social icons at the bottom of the page
             <input type="radio" name="slide" id="img2">
             <input type="radio" name="slide" id="img3">
             <input type="radio" name="slide" id="img4">
-            <img src="1.jpg" class="m1" alt="img1">
-            <img src="2.jpg" class="m2" alt="img2">
-            <img src="3.avif" class="m3" alt="img3">
-            <img src="4.jpg" class="m4" alt="img4">
+            <img src="assets/img/1.jpg" class="m1" alt="img1">
+            <img src="assets/img/2.jpg" class="m2" alt="img2">
+            <img src="assets/img/3.avif" class="m3" alt="img3">
+            <img src="assets/img/4.jpg" class="m4" alt="img4">
         </div>
         <div class="dots">
             <label for="img1"></label>
