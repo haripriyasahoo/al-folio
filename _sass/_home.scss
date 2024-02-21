@@ -1,33 +1,28 @@
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-}
-.slider{
+div.slider{
     position: relative;
     width:60%;
     overflow:hidden;
 
 }
-.images{
+div.images{
     display:flex;
     width: 100%;
     
 }
-.images img{
+div.images img{
     height:400px;
     width: 100%;
     transition: all 0.015s ease;
 }
-.images input{
+div.images input{
     display: none;
 }
-.dots{
+div.dots{
     display: flex;
     justify-content: center;
     margin:5px;
 }
-.dots label{
+div.dots label{
     height: 20px;
     width:20px;
     border-radius: 50%;
@@ -36,7 +31,7 @@
     transition: all 0.15s ease;
     margin:5 px;
 }
-.dots label:hover {background-color: #fff;}
+div.dots label:hover {background-color: #fff;}
 #img1:checked ~ .m1{
     margin-left: 0;
 }
