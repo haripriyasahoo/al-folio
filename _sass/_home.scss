@@ -1,28 +1,32 @@
-div.slider{
+/*****************************
+ * Home styles
+ *****************************/
+
+.slider{
     position: relative;
     width:60%;
     overflow:hidden;
 
 }
-div.images{
+.images{
     display:flex;
     width: 100%;
     
 }
-div.images img{
+.images img{
     height:400px;
     width: 100%;
     transition: all 0.015s ease;
 }
-div.images input{
+.images input{
     display: none;
 }
-div.dots{
+.dots{
     display: flex;
     justify-content: center;
     margin:5px;
 }
-div.dots label{
+.dots label{
     height: 20px;
     width:20px;
     border-radius: 50%;
@@ -31,7 +35,7 @@ div.dots label{
     transition: all 0.15s ease;
     margin:5 px;
 }
-div.dots label:hover {background-color: #fff;}
+.dots label:hover {background-color: #fff;}
 #img1:checked ~ .m1{
     margin-left: 0;
 }
