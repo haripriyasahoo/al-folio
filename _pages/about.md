@@ -6,7 +6,7 @@ permalink: /
 profile: 
   align: right 
   image: LAB.gif  
-  image_circular: false # crops the image to make it circular
+  image_circular: false # crops the image to make it circular 
   
 
 news: false # includes a list of news items
