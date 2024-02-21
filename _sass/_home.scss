@@ -3,12 +3,12 @@
  *****************************/
 
 .slider{
-    position: relative;
+    position: flex;
     width:60%;
     overflow:hidden;
 
 }
-.images{
+.slide.images{
     display:flex;
     width: 100%;
     
