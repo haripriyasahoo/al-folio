@@ -9,148 +9,168 @@ layout: default
         {{ site.last_name }}
       {% else %}
         {{ site.title }}
-      {% endif %}
-    </h1> -->
-<!--     <p class="desc">{{ page.subtitle }}</p> -->
-      <link rel="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      {% endif %} -->
+    </h1>
+    <p class="desc">{{ page.subtitle }}</p> -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
   </header> 
-    <style>
-      body{
-    overflow-x:hidden
-}
-/* .pics{
-/*     display:relative; */
-/*     width:60vw; */
-    /* height:50vh; */
-}
+    <style>
+        .carousel-indicators img{
+            width: 50px;
+            display: inline;
+        }
+        .carousel-indicators button{
+            width: max-content!important;
+        }
+        .carousel-indicators{
+            position: unset;
+        }
+        .carousel-item img{
+           width: 70vw;
+           height: 70vh;
+           margin-top:-10vh;
+        }
+          .carousel-caption p{
+                color:white;
+          }
+    </style>
+<div class="carousel slide" 
+id="carouselDemo"
+data-bs-wrap="true" 
+data-bs-ride="carousel">
 
-.carousel-inner{
-/*     position:relative; */ */
-/*     left:20vw;
-    right:20vw; */
-/*     top:-7vh; 
-    max-width:100%;
-} */
-/* .carousel-indicators{
-    position:relative; */
-}
-/* /* .carousel-control-next-icon{
-    position:relative;
-    right:25vw;
-    top:5.5vh; 
-    color:white; 
-} */
+    <div class="carousel-inner">
 
-/* .carousel-control-prev-icon{
-    position:relative;
-    left:25vw;
-    top:7vh;
-    color:white; 
-} */
-          .carousel-caption p{
-                color:white;
-          }
-    </style>
+        <div class="carousel-item active">
+            <img src="../assets/img/1.jpg" class="w-100">
+            <div class="carousel-caption">
+                <h5>Title Slide 0</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, nemo?
+                </p>
+            </div>
+        </div>
 
-      <div id="carouselExampleDark" class="carousel carousel-dark slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img class="pics" src="../assets/img/1.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img class="pics" src="../assets/img/3.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="pics" src="../assets/img/4.jpg" class="d-block w-100 "  alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-<article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid path = profile_image_path class = profile_image_class sizes = sizes alt = page.profile.image
-            cache_bust = true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
+        <div class="carousel-item " 
+        data-bs-interval="2000">
+            <img src="../assets/img/3.jpg" class="w-100">
+            <div class="carousel-caption">
+                <h5>Title Slide 1</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, nemo?
+                </p>
+            </div>
+        </div>
 
-    <div class="clearfix">{{ content }}</div>
+        <div class="carousel-item ">
+            <img src="../assets/img/4.jpg" class="w-100">
+            <div class="carousel-caption">
+                <h5>Title Slide 2</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, nemo?
+                </p>
+            </div>
+        </div>
 
-    <!-- News -->
-    {% if page.news and site.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
+    </div>
 
-    <!-- Latest posts -->
-    {% if page.latest_posts %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
+    <button class="carousel-control-prev" 
+    type="button"
+    data-bs-target="#carouselDemo" 
+    data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
 
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
+    <button class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselDemo"
+    data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+</button>
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
+    <div class="carousel-indicators">
+        <button type="button" class="active"
+            data-bs-target="#carouselDemo"
+            data-bs-slide-to="0">
+            <img src="../assets/img/1.jpg" />
+        </button>
 
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
-  </article>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <button type="button" 
+        data-bs-target="#carouselDemo"
+        data-bs-slide-to="1">
+            <img src="../assets/img/3.jpg" />
+        </button>
+
+        <button type="button"
+        data-bs-target="#carouselDemo"
+        data-bs-slide-to="2">
+            <img src="../assets/img/4.jpg" />
+        </button>
+    </div>
 
 </div>
+<article>
+    {% if page.profile %}
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1
+      rounded' %}
+          {% endif %}
+          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+      30vw, 95vw"{% endcapture %}
+          {%
+            include figure.liquid path = profile_image_path class = profile_image_class sizes = sizes alt = page.profile.image
+            cache_bust = true
+          %}
+        {% endif %}
+        {% if page.profile.more_info %}
+          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="clearfix">{{ content }}</div>
+
+    <!-- News -->
+    {% if page.news and site.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      </h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
+
+    <!-- Latest posts -->
+    {% if page.latest_posts %}
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+      </h2>
+      {% include latest_posts.liquid %}
+    {% endif %}
+
+    <!-- Selected papers -->
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
+  </article>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+
+</div>
+
 
 
