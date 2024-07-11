@@ -124,7 +124,7 @@ data-bs-ride="carousel">
       30vw, 95vw"{% endcapture %}
           {%
             include figure.liquid path = profile_image_path class = profile_image_class sizes = sizes alt = page.profile.image
-            cache_bust = true
+            cache_bust = true /\%\}
           %}
         {% endif %}
         {% if page.profile.more_info %}
