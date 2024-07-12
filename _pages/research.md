@@ -5,8 +5,8 @@ permalink: /research/
 description: A short video highlighting current and past resarch activities. (Updates are in order.)
 nav: true
 nav_order: 4
-display_categories: []
-horizontal: false
+# display_categories: []
+# horizontal: false
 
 profile: 
   align: right 
