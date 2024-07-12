@@ -7,8 +7,20 @@ nav: true
 nav_order: 4
 display_categories: []
 horizontal: false
-      
+
+profile: 
+  align: right 
+  image: LAB.gif  
+  image_circular: false # crops the image to make it circular 
+  
+
+news: false # includes a list of news items
+latest_posts: false # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
 ---
+   
+
 <div style="padding:56.25% 0 0 0;position:relative;">
 <iframe src="https://player.vimeo.com/video/860593677?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Asim-MAerHydLab"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
