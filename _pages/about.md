@@ -1,8 +1,8 @@
 ---
 layout: about
 title: Home
-permalink: / 
-
+permalink: /home/
+nav_order: 7
 profile:
   align: right
   image: LAB.gif
