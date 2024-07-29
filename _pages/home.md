@@ -1,7 +1,8 @@
 ---
 layout: home
 title: Home
-permalink: /
+permalink: /Home/
+nav_order: 7
 nav: true
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
