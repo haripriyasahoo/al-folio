@@ -55,7 +55,7 @@ social: true # includes social icons at the bottom of the page
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
-          <img class="pics" src="../assets/img/1.jpg" class="d-block w-100"  alt="...">
+          <img class="pics" src="../assets/img/33.jpg" class="d-block w-100"  alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
