@@ -32,15 +32,8 @@ layout: default
             <div class="more-info">{{ profile.more_info }}</div>
           {% endif %}
         </div>
-
-        <div class="clearfix">
-          {% if profile.content %}
-            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
-          {% else %}
-            {{ content }}
-          {% endif %}
-        </div>
+      <div class="clearfix">{{ content }}</div>
+        
       {% endfor %}
     {% endif %}
 
