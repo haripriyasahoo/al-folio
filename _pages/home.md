@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
     overflow-x:hidden
 }
 .pics{
-    width:100vw;
+/*     width:100vw; */
     height:50vh
 }
 
