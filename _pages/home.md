@@ -11,7 +11,41 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ <style>
+       body{
+    overflow-x:hidden
+}
+.pics{
+    width:100vw;
+    height:50vh
+}
 
+.carousel-inner{
+    padding-bottom: 2vh;
+    max-width:100%;
+
+}
+.carousel-dark .carousel-control-next-icon,.carousel-dark .carousel-control-prev-icon{
+    filter:invert(0) greyscale(0);
+}
+ .carousel-indicators{
+    bottom: 4vh;
+     z-index:12;
+} 
+ .carousel .carousel-control-next-icon{
+    width:40px;
+     height:40px;
+     color:white;
+}
+.carousel-caption p{
+                color:white;
+          }
+.carousel .carousel-control-prev-icon{
+    width:40px;
+    height:40px;
+    color:white;
+} 
+    </style>
 <div id="carouselExampleDark" class="carousel carousel-dark slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
