@@ -17,12 +17,12 @@ social: true # includes social icons at the bottom of the page
 }
 .pics{
 /*     width:100vw; */
-    height:50vh
+    height:50vh;
 }
 
 .carousel-inner{
     padding-bottom: 2vh;
-    max-width:100%;
+    /* max-width:100%; */
 
 }
 .carousel-dark .carousel-control-next-icon,.carousel-dark .carousel-control-prev-icon{
