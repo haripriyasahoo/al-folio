@@ -9,16 +9,7 @@ layout: default
             {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1-->
           <!--p class="desc">{{ page.subtitle }}</p-->
-            <div class="logo">
-              {%- if page.logo %}
-              {%- assign profile_image_path = page.logo | prepend: 'assets/img/' -%}
-              {% include figure.html
-              path=profile_image_path
-              class=profile_image_class
-              alt=page.profile.image
-              cache_bust=true -%}
-          {% endif -%}
-	    </div>
+            
 	    <!--h1 class="desc">{{ page.profile.address }}</h1-->
         </header>
 
