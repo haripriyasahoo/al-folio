@@ -9,7 +9,7 @@ description: Background information for principal investigator
 toc:
   sidebar: left
 profile:
-  align: left
+  align: left 
   image: prof_pic1.jpg
   content: AO.md
   image_circular: true # crops the image to make it circular
