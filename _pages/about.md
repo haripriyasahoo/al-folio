@@ -3,7 +3,7 @@ layout: about
 title: Home
 permalink: /
 profile:
-  align: right
+  align: right 
   image: LAB.gif
   image_circular: false # crops the image to make it circular
   address: >
