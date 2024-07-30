@@ -2,7 +2,6 @@
 layout: about
 title: Home
 permalink: /
-nav: true
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -17,7 +16,7 @@ social: true # includes social icons at the bottom of the page
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
-          <img class="pics" src="../assets/img/33.jpg" class="d-block w-100"  alt="...">
+          <img class="pics" src="img/33.jpg" class="d-block w-100"  alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
