@@ -5,7 +5,7 @@ permalink: /
 profile:
   align: right
   image: LAB.gif
-  image_circular: true #false # crops the image to make it circular
+  image_circular: false #false # crops the image to make it circular
   address: >
     <p>Department of Marine Environment and Engineering, National Sun Yat-sen University, No. 70, Lienhai Rd., Kaohsiung 80424, Taiwan</p>
 
