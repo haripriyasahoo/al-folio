@@ -3,11 +3,7 @@ layout: about
 title: Home
 permalink: / 
 
-profile:
-  align: right
-  image: Logo.png
-  image_circular: false #false # crops the image to make it circular
- 
+
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
