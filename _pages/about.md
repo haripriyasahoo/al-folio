@@ -3,10 +3,11 @@ layout: about
 title: Home
 permalink: /
 profile:
-  align: right
-  image: LAB.gif
-  image_circular: false
-
+  align: right
+  image: prof_pic_small.jpg
+  image_circular: true #false # crops the image to make it circular
+  address: >
+    <p>Department of Marine Environment and Engineering, National Sun Yat-sen University, No. 70, Lienhai Rd., Kaohsiung 80424, Taiwan</p>
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
