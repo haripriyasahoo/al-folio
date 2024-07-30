@@ -16,5 +16,4 @@
         }
     </script>
     <p>Ph.D. Student</p>
-
     <p>Machine learning models for interfacial flows</p>
