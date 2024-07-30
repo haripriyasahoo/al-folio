@@ -12,7 +12,6 @@ profiles:
     image: member1.jpeg
     content: about_einstein.md
     image_circular: true # crops the image to make it circular
-    more_info: >
-      <p>Department of Marine Enviroment and Engineering, NSYSU</p>
+    
       
 ---
