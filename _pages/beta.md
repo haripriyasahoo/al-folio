@@ -1,17 +1,16 @@
-
-
-
-
-    
-       
-            <h1 class="name" style="font-size: 24px;"> <b> Haripriya Sahoo </b> </h1>
+<div class="profile-container" style="text-align: left;">
+        <div class="name-container" style="display: flex;">
+            <b class="name" style="font-size: 24px; margin-right: 10px;">  Dr. Asim Önder  </b>
             <button class="play-button" onclick="playAudio()" style="background-color: white; color: black; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 5px;">🔊</button>
-    <audio id="nameAudio" src="beta.mp3"></audio>
+        </div>
+    </div>
+    <audio id="nameAudio" src="AO.mp3"></audio>
     <script>
         function playAudio() {
             var audio = document.getElementById("nameAudio");
             audio.play();
         }
     </script>
-    <p>Ph.D. Student</p>
-    <p><i> Machine learning models for interfacial flows </i> </p>
+    <p>Principal Investigator</p>
+<!--     <p><i> Machine learning models for interfacial flows </i> </p>
+ -->
