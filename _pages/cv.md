@@ -17,7 +17,7 @@ profile:
 
 
 
-<body style=" height: 100vh; background-color: #f0f0f0; margin: 0; font-family: Arial, sans-serif;">
+<body style=" display:flex; height: 100vh; background-color: #f0f0f0; margin: 0; font-family: Arial, sans-serif;">
     <div class="profile-container" style="text-align: left;">
         <div class="name-container">
             <h1 class="name" style="font-size: 24px; margin-right: 10px;"> <b> Dr. Asim Önder </b> </h1>
