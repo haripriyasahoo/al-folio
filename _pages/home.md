@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 
+title: Home
 permalink: /Home/
 nav_order: 7
 nav: true
