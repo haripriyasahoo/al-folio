@@ -3,9 +3,11 @@ layout: about
 title: Home
 permalink: / 
 
-
-  address: >
-    <p>Department of Marine Environment and Engineering, National Sun Yat-sen University, No. 70, Lienhai Rd., Kaohsiung 80424, Taiwan</p>
+profile:
+  align: right
+  image: Logo.png
+  image_circular: false #false # crops the image to make it circular
+ 
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
