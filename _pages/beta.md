@@ -21,7 +21,7 @@
                 <i class="fab fa-linkedin" style="font-size: 24px; color: #0077b5;"></i>
             </a>
         </div>
-    <audio id="nameAudio" src="../assets/audio/beta.mp3"></audio>
+    <audio id="nameAudio" src="../assets/audio/beta.mp3"></audio> 
     <script>
         function playAudio() {
             var audio = document.getElementById("nameAudio");
