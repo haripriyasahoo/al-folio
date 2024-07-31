@@ -10,15 +10,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-       body{overflow-x:hidden}
 
-
-
-
-
-   
-
-
+<body style="overflow-x:hidden;">
 
 <div id="carouselExampleDark" class="carousel carousel-dark slide">
       <div class="carousel-indicators" style="bottom: 4vh;
