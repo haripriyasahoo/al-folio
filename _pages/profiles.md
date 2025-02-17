@@ -12,6 +12,9 @@ profiles:
     image: member1.jpeg
     content: beta.md
     image_circular: true # crops the image to make it circular
-    
+  - align: left
+    image: member2.jpg
+    content: Jose.md
+    image_circular: true # crops the image to make it circular
       
 ---
